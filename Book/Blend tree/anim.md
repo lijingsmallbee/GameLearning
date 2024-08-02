@@ -19,6 +19,11 @@
 !["blend tree视图"](./blend_tree_view.png)
 <p>拖动数值，可以预览动画播放情况</p>
 
+### 4.blend tree在编辑器的预览
+<p>建立一个空场景，将使用blend tree的animator controller所在的prefab拖入到场景，运行起来，双击blend tree的state进入编辑预览</p>
+
+!["blend tree预览"](blend_tree_preview.gif)
+
 ## 3.代码中使用
 <p>切换到blend tree的状态跟普通动画一样，使用play(stateName)或者crossfade来切换到blend tree制作的state</p>
 <p>设置变量，animator:SetFloat('fish_distance',disRadio)</p>
